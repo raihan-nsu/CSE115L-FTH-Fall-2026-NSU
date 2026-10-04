@@ -1,0 +1,7 @@
+*.exe
+*.o
+*.build
+.exe
+.o
+*desktop.ini
+

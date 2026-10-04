@@ -1,0 +1,19 @@
+1.Create file: File>New>Empty File
+2.save file: file>save file>create folder>name>save
+3.header file: standard input output library <stdio.h>
+4.int main(){
+// Everything of code should be written here inside curly brace
+
+printf("// content inside this parenthesis will be printed as it is"); // semicolon should be added after parenthesis for every line
+// Note: Save the file every 1 minute or after writting something
+
+// To run code: 
+1. Save the file
+2. Build (yellow circle at top) (ctrl+F9)
+3. See logs and to find syntex error
+4. Run (Green Triangle) (ctrl+F10)
+5. Build and Run () (F9)
+
+// \n is a newline charecter that moves the cursor/text to the next line
+
+}
