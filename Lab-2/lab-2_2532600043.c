@@ -31,23 +31,23 @@ int main(){
     float sumi = inp1+inp2+inp3;
     float avgi = sumi/3;
 
-    printf("Sum of three numbers: %f\n", sumi);
-    printf("Average of three numbers: %f\n", avgi);
+    printf("Sum of three numbers: %.2f\n", sumi);
+    printf("Average of three numbers: %.3f\n", avgi);
 
     printf("Hello\n\n\n");
 
-    float R;
+    float r;
 
     printf("Enter the radius of the circle: ");
-    scanf("%f", &R);
+    scanf("%f", &r);
 
     float p = 3.1416;
-    float D = 2*R;
-    float C = 2*p*R;
-    float A = p*R*R;
+    float diameter = 2*r;
+    float circumf = 2*p*r;
+    float area = p*r*r;
 
-    printf("Diameter is: %f\n", D);
-    printf("Circumfurance is: %f\n", C);
-    printf("Area is: %f\n", A);
+    printf("Diameter is: %f\n", diameter);
+    printf("Circumfurance is: %.4f\n", circumf);
+    printf("Area is: %f\n", area);
 
 }
