@@ -17,3 +17,20 @@ printf("// content inside this parenthesis will be printed as it is"); // semico
 // \n is a newline charecter that moves the cursor/text to the next line
 
 }
+
+# 05-10-26
+
+void(){
+// returns nothing
+}
+
+<math.h> math header file
+
+for power calculation: pow(number,power);
+for square root result = sqrt(number);
+for cubic root reslt = ctrt(number);
+
+% for modulas and last digit
+/ to find other digit
+
+
