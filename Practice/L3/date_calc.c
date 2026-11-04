@@ -9,7 +9,7 @@ int main(){
     year = day/365;
     month = (day%365)/30;
     week = ((day%365)%30)/7;
-    day = day - ((year*365)+(month*30)+(week*7));
+    day = ((day%365)%30)%7;
 
     printf("It's %d years, %d months, %d weeks and %d days", year,month,week,day);
 
